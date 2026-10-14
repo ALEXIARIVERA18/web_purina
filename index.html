@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitio Web Completo con Navegación Adaptativa</title>
+
+    <!-- Enlace a la hoja de estilos CSS general -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    
+
+</style>
+<body>
+    <meta name="viewport" content="width=device-width", initial-scale="1.0"> 
+
+    <!-- ==========================================
+         HEADER / ENCABEZADO
+         Contiene la barra de navegación (existente)
+         y la sección Hero (banner principal de bienvenida).
+         ========================================== -->
+    <header class="site-header">
+        
+        <!-- BARRA DE NAVEGACIÓN (Estructura intacta) -->
+        <nav class="navbar">
+            <div class="navbar-container">
+                <!-- Logotipo del sitio web -->
+                <a href="index.html" class="navbar-logo">
+                    <div class="logo-purina">
+                        <img src="imagenesjiji\logo-purina.jpg" alt="">
+                    </div>
+                </a>
+                
+                <!-- Botón de menú hamburguesa para dispositivos móviles -->
+                <button class="navbar-toggle" aria-label="Abrir menú">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+
+                <!-- Menú principal con enlaces de navegación -->
+                <ul class="navbar-menu">
+                    <li> <a href="#" class="active"> Home </a> </li>
+                    <li> <a href="#about"> About </a> </li>
+                    <li> <a href="#services"> Services </a> </li>
+                    <li> <a href="#blog"> Blog </a> </li>
+                    <li> <a href="#contact"> Contact </a> </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- SECCIÓN HERO
+             Presentación visual de impacto justo debajo de la barra de navegación.
+             Función: Captar la atención inmediata del visitante y ofrecer una acción directa (CTA). -->
+        <div class="hero-container">
+            <div class="hero-content">
+                <!-- Título principal de la página -->
+                <h1 class="hero-title">Bienvenido a Nuestra Plataforma</h1>
+                <!-- Breve descripción o subtítulo persuasivo -->
+                <p class="hero-subtitle">Diseño moderno, responsivo y adaptado a cualquier dispositivo para potenciar tu presencia digital.</p>
+                <!-- Botón de llamada a la acción (Call To Action) -->
+                <a href="#services" class="hero-btn">Explorar Servicios</a>
+            </div>
+        </div>
+
+    </header>
+
+
+    <!-- ==========================================
+         MAIN / CONTENIDO PRINCIPAL
+         Contenedor semántico principal del sitio web.
+         Aloja el contenido relevante dividido en secciones.
+         ========================================== -->
+    <main class="main-content">
+
+        <!-- SECCIÓN DE SERVICIOS / CARACTERÍSTICAS
+             Función: Presentar los servicios o características clave en formato de cuadrícula (cards). -->
+        <section id="services" class="content-section">
+            <div class="section-header">
+                <h2 class="section-title">Nuestros Servicios</h2>
+                <p class="section-description">Te brindamos nuestros servicios de la mejor calidad, para ti y tu mascota</p>
+            </div>
+
+            <!-- Cuadrícula flexible para organizar las tarjetas de información -->
+            <div class="cards-grid">
+                <!-- Tarjeta 1 -->
+                <article class="card">
+                    <div class="card-icon">🚀</div>
+                    <h3 class="card-title">Servicios Médicos</h3>
+                    <p class="card-text">Contamos con: Consultas médicas, Esterilizaciones, Limpieza de heridas, Suturaciones y cirugías menores.</p>
+                </article>
+
+                <!-- Tarjeta 2 -->
+                <article class="card">
+                    <div class="card-icon">🎨</div>
+                    <h3 class="card-title">Estética Canina/h3>
+                    <p class="card-text">Ofrecemos: Cortes de pelo, Baño antipulgas, Corte de uñas y limpieza de oidos.</p>
+                </article>
+
+                <!-- Tarjeta 3 -->
+                <article class="card">
+                    <div class="card-icon">📱</div>
+                    <h3 class="card-title">Venta de Medicamentos y accesorios</h3>
+                    <p class="card-text">Disponemos de amplias cantidades de medicamentos de la mejor calidad y accesibilidas para ustedes, asi mismo contamos con accesorios para todo tipo de mascota.</p>
+                </article>
+            </div>
+        </section>
+
+
+        <!-- SECCIÓN "ACERCA DE" / INFORMACIÓN
+             Función: Ofrecer contexto adicional sobre la empresa o proyecto. -->
+        <section id="about" class="content-section about-section">
+            <div class="about-container">
+                <div class="about-text">
+                    <h2 class="section-title">Sobre Nosotros</h2>
+                    <p>En el año 2012 se dio inicio a una pequeña veteriana que se encontraba en Cerritos S.LP con dirección Hidalgo #28, era muy pequeña y para poder emprender, la madre del recién egresado MVZ Salvador Chavira Ruiz le prestó $30 mil pesos para comprar unos bultos de alimento, así mismo de un dinero que tenía ahorrados el médico y su esposa Edna Monreal decidieron invertir en medicamento para uso veterinario, fue de esta manera que dio inicio a una de las veterinarias más reconocidas de Cerritos, durante 3 años se mantuvo en esa dirección, fue entonces cuando el propietario de un local ubicado frente al mercado municipal, ofreció el traspaso de ese local ya que no le había funcionado, cabe mencionar que en esa nueva dirección ya existía con anterioridad una veterinaria de nombre “La Purina “</p>
+                    <p>Con un diseño centrado en el usuario y estilos totalmente responsivos, aseguramos la mejor calidad visual y técnica.</p>
+
+                </div>
+                <div class="imagen-perros">
+                    <img src="perritos.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+         <section id="blog" class="content-section about-section">
+            <div class="about-container">
+                <div class="about-text">
+                    <h2 class="section-title">DÓNDE NOS ENCONTRAMOS</h2>
+                    <p>Hola blog, los amo a todos, menos a kenia os y a claudia sheinbaum</p>
+                    <p>Con un diseño centrado en el usuario y estilos totalmente responsivos, aseguramos la mejor calidad visual y técnica.</p>
+                    <div style="text-align: center;">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3687.876707728631!2d-100.28453052446372!3d22.43366588804767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x867ff30046dfb883%3A0x8f67eca209206861!2sLA%20PURINA!5e0!3m2!1ses!2smx!4v1791862639287!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- ==========================================
+         FOOTER / PIE DE PÁGINA
+         Función: Mostrar información de derechos, enlaces útiles y redes sociales.
+         ========================================== -->
+    <footer id="contact" class="site-footer">
+        <div class="footer-container">
+            <!-- Columna 1: Información de marca -->
+            <div class="footer-col">
+                <h4 class="footer-brand">Mi Sitio Web</h4>
+                <p class="footer-desc">Creando experiencias digitales excepcionales con CSS y HTML responsivo.</p>
+            </div>
+
+            <!-- Columna 2: Enlaces rápidos de navegación -->
+            <div class="footer-col">
+                <h5 class="footer-heading">Enlaces Rápidos</h5>
+                <ul class="footer-links">
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#about">Acerca de</a></li>
+                    <li><a href="#services">Servicios</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                    
+                </ul>
+            </div>
+
+            <!-- Columna 3: Información de contacto -->
+            <div class="footer-col">
+                <h5 class="footer-heading">Contacto</h5>
+                <p>Email: contacto@misitioweb.com</p>
+                <p>Teléfono: +52 (444) 123-4567</p>
+                <li><a href="https://www.google.com/goto?url=CAESWgHrOzAVb-h51M-7DZMHD22F2pgbnqU959PinUOliaa9GyNeIK_6hIZGi76GDvhZRww_ftfJ7bULZA6fJxw4mFosNHJGTcR0P3LI-nWH-2lZt_C1gn90ncN5Ng">visitame en mis redes</a></li>
+            </div>
+        </div>
+
+        <!-- Barra inferior de derechos de autor -->
+        <div class="footer-bottom">
+            <p>&copy; 2026 Mi Sitio Web. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Script de control del menú móvil -->
+    <script src="script.js"></script>
+</body>
+</html>
