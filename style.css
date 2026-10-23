@@ -12,7 +12,7 @@ IMPORTACIÓN DE FUENTES Y CONFIGURACIÓN GLOBAL
 body {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   min-height: 100vh;
-  background: red;
+  background-image: url(imagenesjiji/fondopurina.jpg);
   color: #ffffff;
 }
 
@@ -59,7 +59,7 @@ BARRA DE NAVEGACIÓN
 
 .navbar-container .navbar-menu li a {
   text-decoration: none;
-  color: #fff;
+  color: rgb(83, 3, 3);
   font-size: 1.3rem;
   font-weight: 500;
   padding: 3px 20px;
